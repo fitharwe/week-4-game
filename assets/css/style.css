@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 80px !important;
+    color: #6A5ACD !important;
+}
+
+body {
+    background-image: url('../images/pinkrice.png');
+}
+
+#instructions {
+    background-color: lightpink;
+    margin: 20px;
+    padding: 30px;
+}
