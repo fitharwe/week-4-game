@@ -14,4 +14,40 @@ body {
     background-color: lightpink;
     margin: 20px;
     padding: 30px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#box1 {
+    background-color: #008080;
+    margin: 20px;
+    padding: 30px;  
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+#box2 {
+    background-color: #008080;
+    margin: 20px;
+    padding: 30px; 
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+#box3 {
+    background-color: #DA70D6;
+    margin: 20px;
+    padding: 30px; 
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+#instructions p{
+    background-color: lightpink;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }

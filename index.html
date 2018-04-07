@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Game</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
+
 <body>
     <div class="jumbotron">
         <div class="container">
             <h1>Crystal Collector</h1>
         </div>
-      </div>
+    </div>
 
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12" id=instructions>
-             Rules of the Game
-              <p></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" id="instructions">
+                Rules of the Game
+                <p>You will be given a random target number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to the target number. You lose the game if your total score
+                    goes above the target number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time the game starts, the values of each crystal will change.</p>
             </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-3">
-                  <p>Target Number:</p>
-              </div>
-              <div class="col-lg-6">
-                    <p>Wins:</p>
-                    <p>Losses:</p>
-                </div>
-          </div>
-      </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3" id="box1">
+                <p>Target Number:<span id='targetNumber'>0</span></p>
+            </div>
+            <div class="col-lg-2" id="box2">
+                <p>Wins:<span id='wins'>0</span></p>
+                <p>Losses:<span id='losses'>0</span></p>
+            </div>
+            <div class="col-lg-4" id="box3">
+                <p>
+                    Your Score: <span id='yourScore'>0</span>
+                </p>
+            </div>
+        </div>
+    </div>
 
-<script src="assets/javascript/game.js"></script>
-    
-   
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-2" id="gem1">
+                <img src="assets/images/darkblue.jpg" class="img-thumbnail" alt="gem1">
+            </div>
+            <div class="col-lg-2" id="gem2">
+                <img src="assets/images/clear.jpg" class="img-thumbnail" alt="gem2">
+            </div>
+            <div class="col-lg-2" id="gem3">
+                <img src="assets/images/blue.jpg" class="img-thumbnail" alt="gem3">
+            </div>
+            <div class="col-lg-2" id="gem4">
+                <img src="assets/images/purple.jpg" class="img-thumbnail" alt="gem4">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+
+
 </body>
+
 </html>
