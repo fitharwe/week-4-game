@@ -1,13 +1,19 @@
 h1 {
     text-align: center;
-    font-family: 'Anton', sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-weight: bold;
     font-size: 80px !important;
     color: #6A5ACD !important;
 }
 
+.jumbotron {
+    background-image: url('../images/crystalpaper.jpg');
+    background-size: cover;
+}
+
 body {
-    background-image: url('../images/pinkrice.png');
+    background-image: url('../images/crystalbackground.jpg');
+    background-size: cover;
 }
 
 #instructions {
@@ -17,6 +23,8 @@ body {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     font-size: 30px;
+    border-style: outset;
+    border-width: 5px;
 }
 
 #box1 {
@@ -25,6 +33,9 @@ body {
     padding: 30px;  
     font-family: 'Anton', sans-serif;
     font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 #box2 {
@@ -33,6 +44,9 @@ body {
     padding: 30px; 
     font-family: 'Anton', sans-serif;
     font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 #box3 {
@@ -41,6 +55,9 @@ body {
     padding: 30px; 
     font-family: 'Anton', sans-serif;
     font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 
 #instructions p{
@@ -50,4 +67,28 @@ body {
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+#gem1 {
+    border-style: ridge;
+    border-width: 5px;
+    margin: 30px;
+}
+
+#gem2 {
+    border-style: ridge;
+    border-width: 5px;
+    margin: 30px;
+}
+
+#gem3 {
+    border-style: ridge;
+    border-width: 5px;
+    margin: 30px;
+}
+
+#gem4 {
+    border-style: ridge;
+    border-width: 5px;
+    margin: 30px;
 }
