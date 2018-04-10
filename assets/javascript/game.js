@@ -68,4 +68,3 @@ function reset() {
   targetNumber.innerHTML = getRandomValue (20, 5);
 }
 
-  
