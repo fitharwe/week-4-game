@@ -27,6 +27,10 @@ function checkPlayerScore() {
 function reset() {
   $("#yourScore").text("0");
   $("#targetNumber").text(getRandomValue(120, 19));
+  $("#gem1").data("crystalvalue", getRandomValue(12, 1));
+  $("#gem2").data("crystalvalue", getRandomValue(12, 1));
+  $("#gem3").data("crystalvalue", getRandomValue(12, 1));
+  $("#gem4").data("crystalvalue", getRandomValue(12, 1));
 }
 
 $(function() {
